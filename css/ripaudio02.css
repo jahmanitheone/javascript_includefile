@@ -1,0 +1,33 @@
+@media screen and (min-width : 200px) {
+	.p-carousel>.p-container .collapse.in {
+		display: none !important;
+	}
+	.p-carousel>.p-header .panel-heading {
+		width: 100% !important;;
+		margin-left: 0% !important;;
+		margin-bottom: 0% !important;
+	}
+}
+
+@media screen and (min-width : 700px) {
+	.p-carousel>.p-container .collapse.in {
+		display: block !important;
+	}
+	.p-carousel>.p-header .panel-heading {
+		width: 72%;
+		margin-left: 46%;
+		margin-bottom: 2%;
+	}
+}
+
+.icon-prev, .icon-next {
+	display: none !important;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+	background-color: #428bca !important;
+	width: 20px !important;;
+	height: 20px !important;;
+	margin: 0px 5px !important;
+	margin-bottom: -10px !important;
+}
