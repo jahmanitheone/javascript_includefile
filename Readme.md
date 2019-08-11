@@ -30,13 +30,12 @@ inc_body_about.html - Include for about page<br/>
 inc_body_demo.html - Include for demo page<br/>
 
 ## The site has these reusable include files:
-inc_header.html
-inc_footer.html
-inc_headerconfig.html
-inc_navigation.html
+inc_header.html<br/>
+inc_footer.html<br/>
+inc_headerconfig.html<br/>
+inc_navigation.html<br/>
 inc_pagetop.html<p/>
 
 ## Scripts and CSS
 The site is using bootstrap4, font-awsome and the support javascript and css
 
- 
