@@ -8,10 +8,10 @@ All this without a web server, server side includes like that of:<br/>
 PHP: include './incl/inc_somepage.html';<br/>
 Apache: include virtual="/incl/inc_somepage.html"
 
-Use something like this:
-&lt;div w3-include-html="inc_header.html"&gt;&lt;/div&gt;&lt; <br/>
-&lt;div w3-include-html="inc_body_index.html"&gt;&lt;/div&gt;&lt; <br/>
+Use something like this:<br/>
+&lt;div w3-include-html="inc_header.html"&gt;&lt;/div&gt;&lt; 
 
+&lt;div w3-include-html="inc_body_index.html"&gt;&lt;/div&gt;&lt;
 
 ## www.w3schools.com "How to Include HTML" javascript
 The includes are created using www.w3schools.com includeHTML.js. You can download it from: https://www.w3schools.com/howto/howto_html_include.asp.
