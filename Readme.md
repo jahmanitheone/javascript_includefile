@@ -1,4 +1,4 @@
-# Prototyping Web Pages Quiklty With Javascript Includes
+# Prototyping Web Pages Quikly With Javascript Includes
 
 ## Include HTML Files Using Javascript
 I found a new way to quickly prototype my web pages and creating the __site viusal components__. 
