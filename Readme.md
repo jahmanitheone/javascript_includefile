@@ -9,8 +9,8 @@ PHP: include './incl/inc_somepage.html';<br/>
 Apache: include virtual="/incl/inc_somepage.html"
 
 Use something like this:
-&lt; w3-include-html="inc_header.html"&gt;&lt;/div&gt;&lt;<br/>
-&lt; w3-include-html="inc_body_index.html"&gt;&lt;/div&gt;&lt;<br/>
+&lt;div w3-include-html="inc_header.html"&gt;&lt;/div&gt;&lt; <br/>
+&lt;div w3-include-html="inc_body_index.html"&gt;&lt;/div&gt;&lt; <br/>
 
 
 ## www.w3schools.com "How to Include HTML" javascript
