@@ -5,12 +5,12 @@ I found a new way to quickly prototype my web pages and creating the __site vius
 That is create different section of the web page using different files. Example: header.html, footer.html, body.html and etc.<p/>
 
 All this without a web server, server side includes like that of:<br/>
-PHP: include 'filename';<br/>
-Apache: <!--#include virtual="/cgi-bin/counter.pl" --> </p>
+PHP: include './incl/inc_somepage.html';<br/>
+Apache: include virtual="/incl/inc_somepage.html"
 
 Use something like this:
-<div w3-include-html="inc_header.html"></div><br/>
-<div w3-include-html="inc_body_index.html"></div><br/>
+lt; w3-include-html="inc_header.html"gt;lt;/divgt;lt;<br/>
+lt; w3-include-html="inc_body_index.html"gt;lt;/divgt;lt;<br/>
 
 
 ## www.w3schools.com "How to Include HTML" javascript
