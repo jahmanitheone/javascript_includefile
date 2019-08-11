@@ -1,12 +1,17 @@
-# Include HTML Using Javascript
+# Prototyping Web Pages Quiklty With Javascript Includes
 
-## Prototyping Web Pages Quickly By Components
-I found a new way to quickly prototype my web pages and creating the site viusal components. 
-That is create different section as different files: header.html, footer.html, body.html and etc.<p/>
+## Include HTML Files Using Javascript
+I found a new way to quickly prototype my web pages and creating the __site viusal components__. 
+That is create different section of the web page using different files. Example: header.html, footer.html, body.html and etc.<p/>
 
-All this without a web server using something like server side includes of:<br/>
+All this without a web server, server side includes like that of:<br/>
 PHP: include 'filename';<br/>
 Apache: <!--#include virtual="/cgi-bin/counter.pl" --> </p>
+
+Use something like this:
+<div w3-include-html="inc_header.html"></div><br/>
+<div w3-include-html="inc_body_index.html"></div><br/>
+
 
 ## www.w3schools.com "How to Include HTML" javascript
 The includes are created using www.w3schools.com includeHTML.js. You can download it from: https://www.w3schools.com/howto/howto_html_include.asp.
